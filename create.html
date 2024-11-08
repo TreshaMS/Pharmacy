@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "create.css" >
+    <title>Create</title>
+</head>
+<body>
+    
+    <header>
+        <nav class="HeaderNav">
+            <div id="LOGO">
+                <a href="#">
+                    <div id="IMG"></div>
+                </a>
+                <span><a id="LABEL" href="#">Pharmacy Inventory System</a></span>
+            </div>
+            <div>
+                <ul id="MENU">
+                    <li>
+                        <a class="MenuHome" href="Dashboard.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="Create" href="create.html">Create</a>
+                    </li>
+                    <li>
+                        <a class="Admin" href="adminpanel.html#">Admin Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    
+    <div class="con">
+        <form action="medicineDb.php" method="post">
+            <br>    
+            <label for="Mname">Name of the medicine:</label><br>
+            <input type="text" id="mname" name="mname" placeholder="Name of the medicine" required/><br><br>
+           
+            <label for="brand">Brand:</label><br>
+
+            <input type="text" id="bname" name="bname" placeholder="Brand" required/><br><br>
+           
+            <label for="Mgname">Mg Tablet:</label><br>
+            <input type="text" id="mgname" name="mgname" placeholder="Mg Tablet" required/><br><br>
+           
+            <label for="Tname">Tablets Remaining:</label><br>
+            <input type="text" id="tname" name="tname" placeholder="Tablet remaining" required/><br><br>
+           
+            <label for="Bname">Box Remaining:</label><br>
+            <input type="text" id="bname" name="bname" placeholder="Box remaining" required/><br><br>
+           
+            <label for="Ename">Expiration Date: </label><br><input id="expiration_date" 
+            type="date" name="expiration_date"/><br><br>
+           
+
+            <label for="month">Last Purchase:  </label><br><input id="last_purchase_date" 
+            type="month" name="last_purchase_date"/><br>
+            <input type="submit">
+           
+
+        </form>
+    </div>
+
+    
+</body>
+</html>

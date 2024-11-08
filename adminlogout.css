@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background-color: #578592;
+}
+ 
+ /* .Container {
+   width: 100%;
+   margin: 0 auto;
+   background-color:darkslategrey;
+   overflow: visible;
+   margin-bottom: 45%; 
+ }
+  */
+ .HeaderNav {
+   display: flex;
+   position: absolute;
+   top: 0;
+   justify-content: space-between;
+   font-size: 1.5rem;
+   font-variant-caps: all-petite-caps;
+   align-items: center;
+   width: 100%;
+   margin: 0 auto;
+   background-color:darkslategrey;
+   overflow: visible;
+   margin-bottom: 45%; 
+ 
+ }
+ 
+ .HeaderNav #LOGO {
+   display: flex;
+   align-items: center;
+   list-style: none;
+   
+ 
+ }
+ 
+ .HeaderNav #LOGO #IMG {
+   background-image: url(logo2.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100px;
+   height: 100px;
+ }
+ 
+ .HeaderNav #LOGO #LABEL {
+   text-decoration: none;
+   font-size: 1.8rem;
+   font-weight: bold;
+   padding: 0 10px;
+   color: white;
+ 
+ }
+ 
+ .HeaderNav #LOGO #LABEL:hover {
+   color: rgb(146, 146, 146);
+ }
+ 
+ .HeaderNav #MENU {
+   display: flex;
+   list-style: none;
+ }
+ 
+ .HeaderNav #MENU li>a {
+   text-decoration: none;
+   padding: 0 15px;
+   color: white;
+ 
+ }
+ 
+ .HeaderNav #MENU li>a:hover {
+   text-decoration: none;
+   padding: 0 15px;
+   color: rgb(146, 146, 146);
+ }
+ 
+ 
+ .container {
+    width: 34vw;
+    border-radius: 20px;
+    height: 30vh;
+    box-shadow: 1px 1px 7px darkslategrey;
+    position: center; 
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 30vh;
+    background-color: rgba(255, 255, 255, 0.3);
+    background: rgba(255,255,255,0.2);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255,255,255,0.1);  
+    
+  }
+p  {
+    display: flex;
+    margin-top: 1px;
+    margin-left: 10%;
+    text-align: justify;
+
+}
+
+input[type=submit] {
+  text-align: center;
+  padding: 1.4vh 6vw;
+  background-color: darkslategrey;
+  border: 1px solid grey;
+  border-radius: 3px;
+  border-radius: 30px;
+  font-weight: bolder;
+  border: 0;
+  font-size: 2vh;
+  margin-top:7vh;
+  margin-left: 46%;
+
+}
+
+label{
+margin-left: 12%;
+}
+
+input[type=submit]:hover {
+  background-color:cadetblue;
+  cursor: pointer;
+}  

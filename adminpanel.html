@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "adminpanel.css" >
+    <title>Admin Panel</title>
+</head>
+<body>
+
+    <header>
+        <nav class="HeaderNav">
+            <div id="LOGO">
+                <a href="#">
+                    <div id="IMG"></div>
+                </a>
+                <span><a id="LABEL" href="#">Pharmacy Inventory System</a></span>
+            </div>
+            <div>
+                <ul id="MENU">
+                    <li>
+                        <a class="MenuHome" href="Dashboard.html">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+   
+    <form method ="post" action="view.html">
+        <div class="login-container">
+            <br>
+            <center><h4>Admin Login</h4></center>
+                <br><br>
+                
+            <label for="Mname">Username:</label><br>
+            <input type="username" name="username" id="username" placeholder="Username" required/><br><br>
+                    
+            <label for="Pname">Password:</label><br>
+            <input type="password" name="password" id="username" placeholder="Password" required/><br><br>
+
+            <label><input type= "checkbox"> Remember me </label>
+
+            <input type="submit"> <br>
+
+                
+              
+        </div>
+            
+    </form>
+  
+
+</body>
+</html>
